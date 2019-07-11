@@ -91,8 +91,8 @@ vel_dterm_cutoff = MPC_VELD_LP;
 [vel_filt_num, vel_filt_denom] = filter(vel_dterm_cutoff, sim_freq);
 
 max_vel_xy = MPC_XY_VEL_MAX;
-max_vel_z_up = MPC_Z_VEL_MAX_UP;
-max_vel_z_down = -MPC_Z_VEL_MAX_DN;
+max_vel_z_up = MPC_Z_VEL_MAX_DN;
+max_vel_z_down = -MPC_Z_VEL_MAX_UP;
 
 % *************************************************************************
 % X
